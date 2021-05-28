@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&amily=Josefin+Sans:wght@400;500;700&family=Josefin+Sans:wght@400;500;700&?family=Josefin+Sans:wght@400;500;700&?family=Open+Sansdisplay=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  overflow-x: hidden;
+}
+
+.swiper-pagination-bullet-active {
+    background: #d0a15e !important;
+    border-radius: 100%;
+}
+
+.swiper-pagination-bullet {
+    width: 12px !important;
+    height: 12px !important;
+}
