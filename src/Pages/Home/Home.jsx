@@ -2,13 +2,17 @@ import React from "react";
 import EesCard from "../../Component/Card/EesCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination, EffectFade } from "swiper";
-
+// assets
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
+import logo from "../../Assets/logo.jpg";
+import himg2 from "../../Assets/himg2.png";
 import eeimg from "../../Assets/ee_img.jpg";
 import tcardimg1 from "../../Assets/tcardimg1.jpg";
 import tcardimg2 from "../../Assets/tcardimg2.jpg";
 import tcardimg3 from "../../Assets/tcardimg3.jpg";
+import appstoreIcon from "../../Assets/appstore-icon.svg";
+import googlePlayIcon from "../../Assets/googleplay-con.svg";
 // Import Swiper styles
 import "swiper/swiper-bundle.css";
 import "swiper/components/effect-flip/effect-flip.min.css";
@@ -16,6 +20,7 @@ import "./Home.css";
 import TeamCard from "../../Component/Card/TeamCard";
 import AskQueCard from "../../Component/Card/AskQueCard";
 import TestinomialCard from "../../Component/Card/TestinomialCard";
+import Footer from "../../Layout/Footer";
 SwiperCore.use([Navigation, Pagination, EffectFade]);
 
 const Home = () => {
@@ -26,10 +31,7 @@ const Home = () => {
           <div className="h_hero_main">
             <div className="h_hero_left">
               <Fade top delay={700} duration={1000}>
-                <img
-                  src="http://proxykin.com/wp-content/uploads/2018/11/ProxyKin-logo-white.png"
-                  alt="..."
-                />
+                <img src={logo} alt="..." />
               </Fade>
               <Fade left delay={1000} duration={2000}>
                 <h1>
@@ -70,22 +72,19 @@ const Home = () => {
             </div>
             <div className="h_hero_right">
               <Flip bottom delay={4400} duration={2200}>
-                <img
-                  src="http://proxykin.com/wp-content/uploads/2018/11/ProxyKin-Mockup-Shadow-1.png"
-                  alt=""
-                />
+                <img src={himg2} alt="..." />
               </Flip>
             </div>
           </div>
           <Fade bottom delay={1100} duration={1000}>
             <div className="h_media">
               <img
-                src="http://proxykin.com/wp-content/uploads/2018/11/Available-on-the-App-Store-1.svg"
-                alt=""
+                src={appstoreIcon}
+                alt="..."
               />
               <img
-                src="http://proxykin.com/wp-content/uploads/2018/11/Android-App-on-Google-Play-01.svg"
-                alt=""
+                src={googlePlayIcon}
+                alt="..."
               />
             </div>
           </Fade>
@@ -508,7 +507,7 @@ const Home = () => {
           <p>See what users just like you are saying about Proxykin.</p>
           <div className="testinomial_card_section">
             <Swiper
-            className="testinomial_slide"
+              className="testinomial_slide"
               spaceBetween={50}
               slidesPerView={2}
               // navigation
@@ -530,6 +529,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };
