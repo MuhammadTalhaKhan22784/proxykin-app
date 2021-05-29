@@ -21,7 +21,7 @@ const Footer = () => {
             <span>Company</span>
             <Link>About</Link>
             <Link>Team</Link>
-            <Link>Blog</Link>
+            <Link to="privacy">PRIVACY</Link>
             <Link>News</Link>
           </div>
           <div className="fc_3">

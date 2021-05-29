@@ -176,9 +176,15 @@ p {
   width: 100%;
   align-items: flex-start;
   flex-direction: column;
-  height: 550px;
+  /* height: 550px; */
   text-align: justify;
   display: flex;
+  /* overflow-y: scroll; */
+}
+
+.hmsl_text {
+  width: 100%;
+  height: 390px;
   overflow-y: scroll;
 }
 
@@ -194,6 +200,7 @@ p {
   font-size: 1.2rem;
   font-weight: bold;
   color: #d0a15e;
+  margin-bottom: 0.6rem;
 }
 
 .hmsl_content .h_hr {
@@ -209,7 +216,7 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-.hmsl_content::-webkit-scrollbar {
+.hmsl_text::-webkit-scrollbar {
   width: 20px;
 }
 
@@ -279,10 +286,23 @@ p {
 
 .eescard {
   width: 18rem;
-  margin: 1rem 0;
+  margin: 3rem 0;
   padding: 2rem 0;
   text-align: center;
   box-shadow: 0 10px 40px 0 rgb(50 50 50 / 10%) !important;
+  transition: all ease 0.3s;
+}
+
+.eescard:hover {
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.4);
+  transform: scale(1.05) translateY(-3rem);
+  transition: all 0.3s;
+  background: #b2e6b13b;
+}
+
+.eescard:hover h2,
+.eescard:hover i {
+  color: #b97a1d !important;
 }
 
 .eescard .MuiCardContent-root {
@@ -320,6 +340,13 @@ p {
   font-family: "Josefin Sans" !important;
 }
 
+.h_team_section h1:hover,
+.h_team_section p:hover {
+  transform: skewY(1deg) skewX(13deg);
+  transition: ease all 0.4s;
+  color: #b97a1d;
+  opacity: 0.9;
+}
 .h_team_section p {
   font-size: 1.1rem;
   width: 600px;
@@ -406,9 +433,17 @@ p {
   font-family: " Open Sans", sans-serif !important;
 }
 
+.ask_questions_section h1:hover,
+.ask_questions_section p:hover {
+  transform: skewY(1deg) skewX(13deg);
+  transition: ease all 0.4s;
+  color: #b97a1d;
+  opacity: 0.9;
+}
+
 .askcard_section {
   width: 80%;
-  margin-top: 3rem !important;
+  margin-top: 5rem !important;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -422,6 +457,13 @@ p {
   align-items: center;
   background: white;
   padding: 2rem;
+}
+
+.askcard:hover {
+  cursor: pointer;
+  transition: ease all 0.4s;
+  outline: 4px solid #d0a15e;
+  transform: scale(1.05) translateY(0rem);
 }
 
 .askcard > div {
@@ -450,6 +492,10 @@ p {
   font-family: " Open Sans", sans-serif !important;
 }
 
+.askcard p:hover {
+  transform: scale(1.05) translateY(0rem);
+}
+
 .askcard button {
   border-radius: 5px;
   border: 1px solid #d0a15e !important;
@@ -457,7 +503,12 @@ p {
   font-size: 15px;
   background: -webkit-linear-gradient(left, #9e7044, #d0a15e) !important;
   color: #fff;
-  padding:8px 25px;
+  padding: 8px 25px;
+}
+
+.askcard button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 13px 12px rgb(173 129 31 / 42%);
 }
 
 /* testinomial_section */
@@ -473,6 +524,13 @@ p {
   font-family: "Josefin Sans" !important;
   font-size: 2.8rem;
 }
+
+.testinomial_section > h1:hover {
+  transition: ease all 0.4s;
+  transform: scale(1.05) translateY(-0.5rem);
+  color: #b97a1d;
+}
+
 .testinomial_section > p {
   font-size: 1.1rem;
   text-align: center;
@@ -481,15 +539,24 @@ p {
   font-family: " Open Sans", sans-serif !important;
 }
 
+.testinomial_section > p:hover {
+  transition: ease all 0.4s;
+  transform: scale(1.05) translateY(-0.5rem);
+  color: #b97a1d;
+}
+
 .testinomial_card_section {
   display: flex;
   margin-top: 2rem;
 }
 
 .testinomial_card {
-  width: 540px;
+  width: 714px;
   height: max-content;
+  margin: 0 auto;
+  transform: skewX(-12deg);
   display: flex;
+  margin-bottom: 3rem;
   align-items: flex-start;
   background: #f5f5f5;
   padding: 60px 30px 60px 30px;
@@ -498,7 +565,7 @@ p {
 
 .testinomial_slide {
   width: 80%;
-  height: 40vh;
+  height: max-content;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -510,12 +577,12 @@ p {
 
 .testinomial_card i {
   font-size: 1.4rem;
-    color: #d0a15e;
+  color: #d0a15e;
 }
 
 .testinomial_card img {
-  width: 60px;
-  height: 60px;
+  width: 116px;
+  height: 116px;
   border-radius: 100%;
   object-fit: contain;
 }
@@ -525,7 +592,7 @@ p {
 }
 
 .tc_content > h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-family: "Josefin Sans" !important;
 }
 

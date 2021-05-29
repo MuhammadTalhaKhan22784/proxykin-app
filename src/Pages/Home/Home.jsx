@@ -76,16 +76,10 @@ const Home = () => {
               </Flip>
             </div>
           </div>
-          <Fade bottom delay={1100} duration={1000}>
+          <Fade bottom delay={3100} duration={1000}>
             <div className="h_media">
-              <img
-                src={appstoreIcon}
-                alt="..."
-              />
-              <img
-                src={googlePlayIcon}
-                alt="..."
-              />
+              <img src={appstoreIcon} alt="..." />
+              <img src={googlePlayIcon} alt="..." />
             </div>
           </Fade>
         </div>
@@ -305,31 +299,32 @@ const Home = () => {
               <span>
                 Control who will have power of attorney privileges over you.
               </span>
-              <hr className="h_hr" />
-              <p>
-                The process for creating a power of attorney can be lengthy,
-                difficult and expensive. Estate Enforcer's technology cuts out
-                the loss of control once your power of attorney documents are in
-                circulation, by offering a safe and easy way to instruct, create
-                and manage your power of attorneys, putting you in control. Even
-                more, you have the ability to revoke or cancel power of attorney
-                privileges – which in normal circumstances would be a daunting
-                task.
-              </p>
-              <p>
-                Estate Enforcer allows you to easily create various types of
-                power of attorneys based on your needs, and confirm with your
-                circle of trust who can and will act in your best interest.
-              </p>
-              <p>
-                Already have an existing power of attorney? Great, upload it and
-                safely store it here which will soon be on our blockchain.
-                Answer a few questions, and you can enjoy the same benefits as
-                if you created it here from new. Get notifications of its use.
-                Confirm your attorney’s ability or willingness to act or
-                continue. And most importantly track any changes and revoke
-                anyone you don’t want involved.
-              </p>
+              <div className="hmsl_text">
+                <p>
+                  The process for creating a power of attorney can be lengthy,
+                  difficult and expensive. Estate Enforcer's technology cuts out
+                  the loss of control once your power of attorney documents are
+                  in circulation, by offering a safe and easy way to instruct,
+                  create and manage your power of attorneys, putting you in
+                  control. Even more, you have the ability to revoke or cancel
+                  power of attorney privileges – which in normal circumstances
+                  would be a daunting task.
+                </p>
+                <p>
+                  Estate Enforcer allows you to easily create various types of
+                  power of attorneys based on your needs, and confirm with your
+                  circle of trust who can and will act in your best interest.
+                </p>
+                <p>
+                  Already have an existing power of attorney? Great, upload it
+                  and safely store it here which will soon be on our blockchain.
+                  Answer a few questions, and you can enjoy the same benefits as
+                  if you created it here from new. Get notifications of its use.
+                  Confirm your attorney’s ability or willingness to act or
+                  continue. And most importantly track any changes and revoke
+                  anyone you don’t want involved.
+                </p>
+              </div>
             </div>
           </div>
           <div className="hms_right">
@@ -348,96 +343,98 @@ const Home = () => {
                 You could lose everything even when alive, often leaving nothing
                 for your heirs.
               </span>
-              <hr className="h_hr" />
-              <p>
-                The amount of American's aged 65 and older is projected to more
-                than double by the year 2060. It's also estimated that elderly
-                individuals lose approximately $2.9 billion annually from
-                financial fraud and scams.
-              </p>
-              <p>
-                A power of attorney is a legal document which enables another
-                party to make decisions on your behalf in the case you are
-                unable to, such as being in a coma, losing mental capacity,
-                while in the military being deployed overseas, or simply being
-                out of the country. The other party granted power is considered
-                the “attorney”. There are two forms of this document:
-              </p>
-              <p>
-                1. Property type: Your attorney has deciding power over your
-                housing, investments, bills, and other financial assets.
-              </p>
-              <p>
-                2. Personal care type: Your attorney is able to make decisions
-                related to your health, clothing, and other aspects of your
-                personal life.
-              </p>
-              <p>
-                To prepare a power of attorney, you must first be mentally
-                capable to do so. To sign a power of attorney for property, you
-                must understand:
-              </p>
-              <p>1. What assets you own and their worth.</p>
-              <p>2. That you will have obligations to the attorney.</p>
-              <p>3. The power and control you are giving to the attorney.</p>
-              <p>A power of attorney for personal care requires you to:</p>
-              <p>1. Have a genuine need for assistance.</p>
-              <p>
-                2. Understand the importance of choosing the correct individual
-                to appoint as attorney.
-              </p>
-              <p>
-                Selecting the correct attorney is crucial to avoid misuse and
-                fraud. On average, the appointed individual will have to be an
-                adult and be able to hold property under its name, such as being
-                a minimum of 18 years old. In certain countries, including
-                Canada, the minimum age for a personal care power of attorney is
-                16 years old. Every person should refer to their local
-                legislation to determine age restrictions.
-              </p>
-              <p>
-                An attorney for personal care should ideally be a family member
-                or close friend. They should understand all of the
-                responsibilities they will undertake if appointed. Paid
-                individuals are normally not allowed to be an attorney for
-                personal care, which includes:
-              </p>
-              <p>1. Nurses or health care providers</p>
-              <p>2. Teachers or social workers</p>
-              <p>3. Landlords</p>
-              <p>
-                Attorneys for property can begin making decisions immediately,
-                therefore extra caution is suggested. It is common to state
-                within your power of attorney that the other party is only
-                allowed to make decisions if you are mentally incapable. Trust
-                companies can also be appointed as an attorney for a fee to
-                handle property.
-              </p>
-              <p>
-                To determine when a power of attorney comes into effect and for
-                how long, there are several categories that can be selected.
-                They are:
-              </p>
-              <p>
-                1. General: Effective immediately and end on your death or
-                incapacity.
-              </p>
-              <p>
-                2. Limited: Effective only for specific periods of time or
-                purpose(s) as previously decided by you.
-              </p>
-              <p>
-                3. Enduring: Effective immediately and continues into
-                incapacity. Ends upon your death or revocation.
-              </p>
-              <p>
-                4. Springing: Not effective until incapacity occurs or a
-                specified trigger as previously decided by you.
-              </p>
-              <p>
-                All power of attorneys end on your death, which where the
-                importance of a will comes in!
-              </p>
+              <div className="hmsl_text">
+                <p>
+                  The amount of American's aged 65 and older is projected to
+                  more than double by the year 2060. It's also estimated that
+                  elderly individuals lose approximately $2.9 billion annually
+                  from financial fraud and scams.
+                </p>
+                <p>
+                  A power of attorney is a legal document which enables another
+                  party to make decisions on your behalf in the case you are
+                  unable to, such as being in a coma, losing mental capacity,
+                  while in the military being deployed overseas, or simply being
+                  out of the country. The other party granted power is
+                  considered the “attorney”. There are two forms of this
+                  document:
+                </p>
+                <p>
+                  1. Property type: Your attorney has deciding power over your
+                  housing, investments, bills, and other financial assets.
+                </p>
+                <p>
+                  2. Personal care type: Your attorney is able to make decisions
+                  related to your health, clothing, and other aspects of your
+                  personal life.
+                </p>
+                <p>
+                  To prepare a power of attorney, you must first be mentally
+                  capable to do so. To sign a power of attorney for property,
+                  you must understand:
+                </p>
+                <p>1. What assets you own and their worth.</p>
+                <p>2. That you will have obligations to the attorney.</p>
+                <p>3. The power and control you are giving to the attorney.</p>
+                <p>A power of attorney for personal care requires you to:</p>
+                <p>1. Have a genuine need for assistance.</p>
+                <p>
+                  2. Understand the importance of choosing the correct
+                  individual to appoint as attorney.
+                </p>
+                <p>
+                  Selecting the correct attorney is crucial to avoid misuse and
+                  fraud. On average, the appointed individual will have to be an
+                  adult and be able to hold property under its name, such as
+                  being a minimum of 18 years old. In certain countries,
+                  including Canada, the minimum age for a personal care power of
+                  attorney is 16 years old. Every person should refer to their
+                  local legislation to determine age restrictions.
+                </p>
+                <p>
+                  An attorney for personal care should ideally be a family
+                  member or close friend. They should understand all of the
+                  responsibilities they will undertake if appointed. Paid
+                  individuals are normally not allowed to be an attorney for
+                  personal care, which includes:
+                </p>
+                <p>1. Nurses or health care providers</p>
+                <p>2. Teachers or social workers</p>
+                <p>3. Landlords</p>
+                <p>
+                  Attorneys for property can begin making decisions immediately,
+                  therefore extra caution is suggested. It is common to state
+                  within your power of attorney that the other party is only
+                  allowed to make decisions if you are mentally incapable. Trust
+                  companies can also be appointed as an attorney for a fee to
+                  handle property.
+                </p>
+                <p>
+                  To determine when a power of attorney comes into effect and
+                  for how long, there are several categories that can be
+                  selected. They are:
+                </p>
+                <p>
+                  1. General: Effective immediately and end on your death or
+                  incapacity.
+                </p>
+                <p>
+                  2. Limited: Effective only for specific periods of time or
+                  purpose(s) as previously decided by you.
+                </p>
+                <p>
+                  3. Enduring: Effective immediately and continues into
+                  incapacity. Ends upon your death or revocation.
+                </p>
+                <p>
+                  4. Springing: Not effective until incapacity occurs or a
+                  specified trigger as previously decided by you.
+                </p>
+                <p>
+                  All power of attorneys end on your death, which where the
+                  importance of a will comes in!
+                </p>
+              </div>
             </div>
           </div>
           <div className="hms_right">
@@ -509,20 +506,24 @@ const Home = () => {
             <Swiper
               className="testinomial_slide"
               spaceBetween={50}
-              slidesPerView={2}
+              slidesPerView={1}
               // navigation
               pagination={{ clickable: true }}
             >
               <SwiperSlide>
                 <TestinomialCard />
-              </SwiperSlide>
-              <SwiperSlide>
                 <TestinomialCard />
               </SwiperSlide>
               <SwiperSlide>
                 <TestinomialCard />
+                <TestinomialCard />
               </SwiperSlide>
               <SwiperSlide>
+                <TestinomialCard />
+                <TestinomialCard />
+              </SwiperSlide>
+              <SwiperSlide>
+                <TestinomialCard />
                 <TestinomialCard />
               </SwiperSlide>
             </Swiper>
