@@ -169,6 +169,8 @@ const Privacy = () => {
               individual using the Service.
             </li>
           </ul>
+       
+       
         </div>
       </div>
     </React.Fragment>

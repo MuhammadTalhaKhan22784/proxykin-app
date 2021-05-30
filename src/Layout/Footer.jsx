@@ -19,9 +19,9 @@ const Footer = () => {
           </div>
           <div className="fc_2">
             <span>Company</span>
-            <Link>About</Link>
+            <Link to="/about">About</Link>
             <Link>Team</Link>
-            <Link to="privacy">PRIVACY</Link>
+            <Link to="/privacy">PRIVACY</Link>
             <Link>News</Link>
           </div>
           <div className="fc_3">
