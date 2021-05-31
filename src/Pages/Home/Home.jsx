@@ -29,9 +29,9 @@ const Home = () => {
         <div className="h_hero_section">
           <div className="h_hero_main">
             <div className="h_hero_left">
-              <Fade top delay={700} duration={1000}>
+              {/* <Fade top delay={700} duration={1000}>
                 <img src={logo} alt="..." />
-              </Fade>
+              </Fade> */}
               <Fade left delay={1000} duration={2000}>
                 <h1>
                   Monitor your executors & attorneys, and control your legacy!

@@ -1,28 +1,57 @@
 .about_section {
   width: 100%;
   height: 100%;
-  margin: 4rem 0;
+  margin-bottom: 3rem;
+}
+
+.abt_hero {
+  width: 100%;
+  height: 300px;
+  padding: 4rem 0;
+  background: #282c34;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.abt_hero .h_hr {
+  background: #d29850;
+  margin: 1rem 0;
+}
+
+.abt_hero h2 {
+  font-size: 3rem;
+  color: white;
+  margin: 0 !important;
 }
 
 .abt_content {
   width: 90%;
   height: 100%;
+  margin: -90px auto 0 auto;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.abt_left {
+/* .abt_left {
   width: 50%;
   height: 500px;
+  margin:0 auto;
   display: flex;
   align-items: center;
-}
+} */
 
 .abt_right {
   width: 50%;
   height: max-content;
   box-shadow: 0 1px 10px -3px rgb(0 0 0 / 22%);
   padding: 2rem 70px;
+  background: white;
+  border-radius: 10px;
 }
 
 .abt_right .h_hr {

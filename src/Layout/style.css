@@ -142,8 +142,8 @@ a {
   width: 100%;
   height: 100px;
   padding: 0 30px;
-  /* background: #0d5b79; */
-  background:#161a23e0;
+  background: #20232a;
+  /* background:#161a23e0; */
   display: flex;
   justify-content: space-between;
   align-items: center;

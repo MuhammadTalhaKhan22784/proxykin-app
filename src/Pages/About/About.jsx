@@ -4,8 +4,12 @@ const About = () => {
   return (
     <React.Fragment>
       <div className="about_section">
+        <div className="abt_hero">
+          <h2>About Us</h2>
+          <hr className="h_hr" />
+        </div>
         <div className="abt_content">
-          <div className="abt_left">
+          {/* <div className="abt_left">
             <iframe
               className="faq_video"
               src="https://www.youtube.com/embed/mC5uJGUmyOU"
@@ -14,10 +18,10 @@ const About = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-          </div>
+          </div> */}
           <div className="abt_right">
-            <h2>About Us</h2>
-            <hr className="h_hr" />
+            {/* <h2>About Us</h2>
+            <hr className="h_hr" /> */}
             <p>
               By keeping everyone informed, collectively they will help monitor
               your estate, the use of your Power of Attorneys and Wills, and the
