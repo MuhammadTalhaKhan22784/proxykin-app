@@ -6,7 +6,7 @@ const Privacy = () => {
   return (
     <React.Fragment>
       <div className="privacy_section">
-        <div className="p_hero">
+        {/* <div className="p_hero">
           <h2>Privacy Policy</h2>
           <p>Last updated: December 07, 2020</p>
           <p>
@@ -20,8 +20,21 @@ const Privacy = () => {
             using the Service, You agree to the collection and use of
             information in accordance with this Privacy Policy.
           </p>
-        </div>
+        </div> */}
         <div className="p_content">
+          <h1>Privacy Policy</h1>
+          <p className="p_text">Last updated: December 07, 2020</p>
+          <p>
+            This Privacy Policy describes Our policies and procedures on the
+            collection, use and disclosure of Your information when You use the
+            Service and tells You about Your privacy rights and how the law
+            protects You.
+          </p>
+          <p>
+            We use Your Personal data to provide and improve the Service. By
+            using the Service, You agree to the collection and use of
+            information in accordance with this Privacy Policy.
+          </p>
           <h2>Interpretation</h2>
           <p>
             The words of which the initial letter is capitalized have meanings
@@ -168,9 +181,20 @@ const Privacy = () => {
               referred to as the Data Subject or as the User as you are the
               individual using the Service.
             </li>
+            <li>
+              <strong>Website</strong> refers to Estate Enforcer, accessible
+              from http://www.estateenforcer.com
+            </li>
+            <li>
+              <strong>You</strong> means the individual accessing or using the
+              Service, or the company, or other legal entity on behalf of which
+              such individual is accessing or using the Service, as applicable.
+              <br />
+              Under GDPR (General Data Protection Regulation), You can be
+              referred to as the Data Subject or as the User as you are the
+              individual using the Service.
+            </li>
           </ul>
-       
-       
         </div>
       </div>
     </React.Fragment>

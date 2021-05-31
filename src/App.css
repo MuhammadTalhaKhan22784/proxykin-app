@@ -12,7 +12,8 @@ body {
 }
 
 .swiper-pagination-bullet-active {
-    background: #d0a15e !important;
+    /* background: #d0a15e !important; */
+    background: #4899bd !important;
     border-radius: 100%;
 }
 

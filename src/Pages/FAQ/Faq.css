@@ -1,6 +1,7 @@
 .faq_section {
   width: 100%;
   height: 100%;
+  background: #f5f5f5;
 }
 
 .faq_hero {
@@ -10,7 +11,7 @@
   align-items: center;
   justify-content: center;
   height: 40vh;
-  background: #000000e0;
+  background: #464f65;
   text-align: center;
 }
 
@@ -44,22 +45,73 @@
 .faq_content {
   width: 98%;
   margin: 0 auto;
-  height: 600px;
-  background: #f5f5f5;
+  height: max-content;
+  display: flex;
+  justify-content: center;
 }
 
 .faq_box {
-  width: 500px;
+  width: 600px;
+  margin: 0.5rem 0;
+  border-radius: 10px;
 }
 
 .fqb_text {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px 20px;
-  background: white;
+
+  /* background: #339ab926; */
+  /* background: linear-gradient(to right, #2178bfbf 0%, #2178bfba 100%); */
 }
 
+.fqb_text button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 
 .fqb_para {
-    padding: 10px 20px;
+  padding: 10px 20px;
+  font-family: "Josefin Sans" !important;
+}
+
+.fqb_para p {
+  line-height: 1.5;
+  font-size: 1.1rem;
+  text-align: justify;
+ 
+}
+
+.faq_content > div {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 2rem 0;
+  flex-wrap: wrap;
+  /* color: white; */
+}
+
+.faq_content > div h2 {
+  margin: 1rem 0;
+}
+
+.fqlist_text {
+  font-size: 1.2rem;
+  color: white;
+  padding-right: 20px;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+}
+
+.active {
+  background: linear-gradient(90deg, #330867 0, #3088d0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
 }

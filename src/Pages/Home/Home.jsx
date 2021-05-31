@@ -20,7 +20,6 @@ import "./Home.css";
 import TeamCard from "../../Component/Card/TeamCard";
 import AskQueCard from "../../Component/Card/AskQueCard";
 import TestinomialCard from "../../Component/Card/TestinomialCard";
-import Footer from "../../Layout/Footer";
 SwiperCore.use([Navigation, Pagination, EffectFade]);
 
 const Home = () => {
@@ -98,41 +97,43 @@ const Home = () => {
                 <div className="hds_content">
                   <h2>What is Estate Enforcer?</h2>
                   <hr className="h_hr" />
-                  <p>
-                    Ensuring that your estate is well managed by those you
-                    entrusted with it.
-                  </p>
-                  <p>
-                    By keeping everyone informed, collectively they will help
-                    monitor your estate, the use of your Power of Attorneys and
-                    Wills, and the changes that may affect the legacy you decide
-                    to leave behind. Together you and your stakeholders will
-                    eliminate the misuse of the power you delegate and the
-                    carrying out of your wishes.
-                  </p>
-                  <p>
-                    Estate Enforcer is an application to safely and easily
-                    manage your power of attorneys and wills – all in one place.
-                    Whether it’s choosing who will have power of attorney
-                    privileges over you, preparing instructions to your lawyer
-                    to draft your will, or keeping tabs on everyone involved,
-                    Estate Enforcer is your lifetime tool!
-                  </p>
-                  <p>
-                    We know how important these decisions are. What you
-                    shouldn’t have to worry about is the accessibility and
-                    security of the decisions you made over your estate and how
-                    to leave behind a legacy that you can trust. That’s why all
-                    of our features are made to put you in control of your power
-                    of attorneys and wills, by keeping you informed and apprised
-                    of everyone involved and their situation together with
-                    yours.
-                  </p>
-                  <p>
-                    Your personal information and legal documents will soon be
-                    kept secure and accessible anywhere in the world using the
-                    power of blockchain.
-                  </p>
+                  <div>
+                    <p>
+                      Ensuring that your estate is well managed by those you
+                      entrusted with it.
+                    </p>
+                    <p>
+                      By keeping everyone informed, collectively they will help
+                      monitor your estate, the use of your Power of Attorneys
+                      and Wills, and the changes that may affect the legacy you
+                      decide to leave behind. Together you and your stakeholders
+                      will eliminate the misuse of the power you delegate and
+                      the carrying out of your wishes.
+                    </p>
+                    <p>
+                      Estate Enforcer is an application to safely and easily
+                      manage your power of attorneys and wills – all in one
+                      place. Whether it’s choosing who will have power of
+                      attorney privileges over you, preparing instructions to
+                      your lawyer to draft your will, or keeping tabs on
+                      everyone involved, Estate Enforcer is your lifetime tool!
+                    </p>
+                    <p>
+                      We know how important these decisions are. What you
+                      shouldn’t have to worry about is the accessibility and
+                      security of the decisions you made over your estate and
+                      how to leave behind a legacy that you can trust. That’s
+                      why all of our features are made to put you in control of
+                      your power of attorneys and wills, by keeping you informed
+                      and apprised of everyone involved and their situation
+                      together with yours.
+                    </p>
+                    <p>
+                      Your personal information and legal documents will soon be
+                      kept secure and accessible anywhere in the world using the
+                      power of blockchain.
+                    </p>
+                  </div>
                 </div>
               </div>
             </SwiperSlide>
@@ -142,150 +143,157 @@ const Home = () => {
                 <div className="hds_content">
                   <h2>Why</h2>
                   <hr className="h_hr" />
-                  <p>
-                    When an attorney misuses their authority that is granted to
-                    them, it is considered power of attorney abuse. This
-                    typically manifests in the form of not making decisions in
-                    your best interest as the donor. In some cases, the
-                    appointed attorney will neglect your needs as the donor. If
-                    the power of attorney was created for personal care, this is
-                    a serious issue since your health and welfare as the donor
-                    is at stake. It is typically known as breach of fiduciary
-                    duty. Fiduciary duties can include, but are not limited to:
-                  </p>
-                  <p>
-                    By keeping everyone informed, collectively they will help
-                    monitor your estate, the use of your Power of Attorneys and
-                    Wills, and the changes that may affect the legacy you decide
-                    to leave behind. Together you and your stakeholders will
-                    eliminate the misuse of the power you delegate and the
-                    carrying out of your wishes.
-                  </p>
-                  <p>
-                    Estate Enforcer is an application to safely and easily
-                    manage your power of attorneys and wills – all in one place.
-                    Whether it’s choosing who will have power of attorney
-                    privileges over you, preparing instructions to your lawyer
-                    to draft your will, or keeping tabs on everyone involved,
-                    Estate Enforcer is your lifetime tool!
-                  </p>
-                  <p>
-                    We know how important these decisions are. What you
-                    shouldn’t have to worry about is the accessibility and
-                    security of the decisions you made over your estate and how
-                    to leave behind a legacy that you can trust. That’s why all
-                    of our features are made to put you in control of your power
-                    of attorneys and wills, by keeping you informed and apprised
-                    of everyone involved and their situation together with
-                    yours.
-                  </p>
-                  <p>
-                    Your personal information and legal documents will soon be
-                    kept secure and accessible anywhere in the world using the
-                    power of blockchain.
-                  </p>
-                  <p>
-                    1. Ensuring that you, as the donor, is informed about any
-                    changes to your finances, affairs, or personal information.
-                    <br /> 2. Refraining from transferring your property or
-                    finances to the attorney unless indicated in the power of
-                    attorney. <br />
-                    3. Receiving consent for making any changes or profiting
-                    from your finances.
-                  </p>
-                  <p>
-                    Medical abuse can occur in the forms of you unwillingly
-                    being brought to a nursing home, unneeded medical
-                    appointments being made, or adequate care not being
-                    provided. If your concerned parties (such as friends and
-                    family) are becoming prohibited from seeing or communicating
-                    with you, it is often a red flag. Care expenses not being
-                    covered and unreasonable changes to assistance are other
-                    signs of misuse.
-                  </p>
-                  <p>
-                    Power of attorneys created for property can be abused for
-                    the financial gain of the appointed attorney. Money can be
-                    transferred from your bank to theirs, property can be sold
-                    for their gain, and similar financial situations.
-                  </p>
-                  <p>
-                    When the abuse of a power of attorney borders identity
-                    theft, it is considered fraud. Having full access to your
-                    personal information, bank accounts, and sensitive data can
-                    enable your attorney to commit many fraud related crimes,
-                    especially if no one else knows until it is too late.
-                  </p>
-                  <p>
-                    Firstly, credit cards, bank accounts, and other financial
-                    products can be opened in your name. Welfare and tax fraud
-                    can be done under your name without you or anyone else who
-                    cares about you, ever knowing. Performing forgery to become
-                    a beneficiary or owner of property is another form of fraud
-                    that can be performed.
-                  </p>
-                  <p>
-                    Since power of attorneys are typically granted to care for
-                    sick, elderly, or disabled individuals, they are the ones
-                    who are most at risk. As they are already in physically and
-                    mentally vulnerable positions, dishonest attorneys can take
-                    advantage of them. If you live alone or have very few
-                    relatives to rely on, you are also very susceptible.
-                  </p>
-                  <p>
-                    Not to mention, there are many forms of will fraud. The most
-                    common is when an executor submits an earlier version of a
-                    will for probate in an attempt to deceive the beneficiaries
-                    as to their latest entitlements under a more recent will,
-                    often motivated by direct or indirect personal gain. This is
-                    common because often one would create a will, give out
-                    copies to executors and beneficiaries or let them know where
-                    the original is stored. When wills are later changed, the
-                    executors and beneficiaries may not be notified, or their
-                    involvement or inheritance was altered such that it was
-                    uncomfortable for the deceased to inform them at the time.
-                    Not knowing better, or knowing and not agreeing with the
-                    changes, the executor may intentionally act on an older will
-                    that they may have a copy of, or know where the original one
-                    is. Keep in mind these wills can be altered by “slip
-                    sheeting”, where pages of the will are swapped with
-                    fraudulently drafted ones and commingled with the actual
-                    pages of the will in order to effect the result the
-                    fraudster desires.
-                  </p>
-                  <p>
-                    Fraud can even begin earlier by inducing the bequest of the
-                    testator through duress or undue influence. Or taking
-                    advantage of the testator when they are not of sound mind,
-                    often involving a less scrupulous lawyer and notary,
-                    tricking the testator into altering or drafting a new will
-                    without any of the original beneficiaries and executors
-                    knowing, or even family members and confidants, such as the
-                    original lawyer. Also, another example is when the testator
-                    disposed of his property differently because of the
-                    intentional misrepresentation that the testator considered
-                    important but where the misrepresentation was not directed
-                    to a particular provision in the will. For instance, if a
-                    fraudster convinces the testator that an heir apparent has
-                    already died, but is, in fact, alive, this would probably
-                    cause the testator to distribute his assets differently,
-                    either in the execution of the already drafted original will
-                    or a codicil or revoking a will that included the heir, so
-                    that a new will can be executed not including the presumed
-                    deceased heir. Another example of this is in the execution
-                    of the will, which occurs when the fraudster misrepresents
-                    the document that the testator is signing as the testator's
-                    will, when, in fact, it is not. For instance, fraud in the
-                    execution would occur if the fraudster drew another will
-                    naming himself as the primary beneficiary then substituted
-                    his will for the testator's will and had the testator sign
-                    it as if it was his will. Because for some reason testators
-                    feel that they need to keep their wills private and hidden,
-                    no one ever finds out. By not keeping your beneficiaries and
-                    executors informed, as well as your loved ones, friends,
-                    confidants and lawyer; perpetrating fraud in this manner is
-                    easier than you may think!
-                  </p>
+                  <div>
+                    <p>
+                      When an attorney misuses their authority that is granted
+                      to them, it is considered power of attorney abuse. This
+                      typically manifests in the form of not making decisions in
+                      your best interest as the donor. In some cases, the
+                      appointed attorney will neglect your needs as the donor.
+                      If the power of attorney was created for personal care,
+                      this is a serious issue since your health and welfare as
+                      the donor is at stake. It is typically known as breach of
+                      fiduciary duty. Fiduciary duties can include, but are not
+                      limited to:
+                    </p>
+                    <p>
+                      By keeping everyone informed, collectively they will help
+                      monitor your estate, the use of your Power of Attorneys
+                      and Wills, and the changes that may affect the legacy you
+                      decide to leave behind. Together you and your stakeholders
+                      will eliminate the misuse of the power you delegate and
+                      the carrying out of your wishes.
+                    </p>
+                    <p>
+                      Estate Enforcer is an application to safely and easily
+                      manage your power of attorneys and wills – all in one
+                      place. Whether it’s choosing who will have power of
+                      attorney privileges over you, preparing instructions to
+                      your lawyer to draft your will, or keeping tabs on
+                      everyone involved, Estate Enforcer is your lifetime tool!
+                    </p>
+                    <p>
+                      We know how important these decisions are. What you
+                      shouldn’t have to worry about is the accessibility and
+                      security of the decisions you made over your estate and
+                      how to leave behind a legacy that you can trust. That’s
+                      why all of our features are made to put you in control of
+                      your power of attorneys and wills, by keeping you informed
+                      and apprised of everyone involved and their situation
+                      together with yours.
+                    </p>
+                    <p>
+                      Your personal information and legal documents will soon be
+                      kept secure and accessible anywhere in the world using the
+                      power of blockchain.
+                    </p>
+                    <p>
+                      1. Ensuring that you, as the donor, is informed about any
+                      changes to your finances, affairs, or personal
+                      information.
+                      <br /> 2. Refraining from transferring your property or
+                      finances to the attorney unless indicated in the power of
+                      attorney. <br />
+                      3. Receiving consent for making any changes or profiting
+                      from your finances.
+                    </p>
+                    <p>
+                      Medical abuse can occur in the forms of you unwillingly
+                      being brought to a nursing home, unneeded medical
+                      appointments being made, or adequate care not being
+                      provided. If your concerned parties (such as friends and
+                      family) are becoming prohibited from seeing or
+                      communicating with you, it is often a red flag. Care
+                      expenses not being covered and unreasonable changes to
+                      assistance are other signs of misuse.
+                    </p>
+                    <p>
+                      Power of attorneys created for property can be abused for
+                      the financial gain of the appointed attorney. Money can be
+                      transferred from your bank to theirs, property can be sold
+                      for their gain, and similar financial situations.
+                    </p>
+                    <p>
+                      When the abuse of a power of attorney borders identity
+                      theft, it is considered fraud. Having full access to your
+                      personal information, bank accounts, and sensitive data
+                      can enable your attorney to commit many fraud related
+                      crimes, especially if no one else knows until it is too
+                      late.
+                    </p>
+                    <p>
+                      Firstly, credit cards, bank accounts, and other financial
+                      products can be opened in your name. Welfare and tax fraud
+                      can be done under your name without you or anyone else who
+                      cares about you, ever knowing. Performing forgery to
+                      become a beneficiary or owner of property is another form
+                      of fraud that can be performed.
+                    </p>
+                    <p>
+                      Since power of attorneys are typically granted to care for
+                      sick, elderly, or disabled individuals, they are the ones
+                      who are most at risk. As they are already in physically
+                      and mentally vulnerable positions, dishonest attorneys can
+                      take advantage of them. If you live alone or have very few
+                      relatives to rely on, you are also very susceptible.
+                    </p>
+                    <p>
+                      Not to mention, there are many forms of will fraud. The
+                      most common is when an executor submits an earlier version
+                      of a will for probate in an attempt to deceive the
+                      beneficiaries as to their latest entitlements under a more
+                      recent will, often motivated by direct or indirect
+                      personal gain. This is common because often one would
+                      create a will, give out copies to executors and
+                      beneficiaries or let them know where the original is
+                      stored. When wills are later changed, the executors and
+                      beneficiaries may not be notified, or their involvement or
+                      inheritance was altered such that it was uncomfortable for
+                      the deceased to inform them at the time. Not knowing
+                      better, or knowing and not agreeing with the changes, the
+                      executor may intentionally act on an older will that they
+                      may have a copy of, or know where the original one is.
+                      Keep in mind these wills can be altered by “slip
+                      sheeting”, where pages of the will are swapped with
+                      fraudulently drafted ones and commingled with the actual
+                      pages of the will in order to effect the result the
+                      fraudster desires.
+                    </p>
+                    <p>
+                      Fraud can even begin earlier by inducing the bequest of
+                      the testator through duress or undue influence. Or taking
+                      advantage of the testator when they are not of sound mind,
+                      often involving a less scrupulous lawyer and notary,
+                      tricking the testator into altering or drafting a new will
+                      without any of the original beneficiaries and executors
+                      knowing, or even family members and confidants, such as
+                      the original lawyer. Also, another example is when the
+                      testator disposed of his property differently because of
+                      the intentional misrepresentation that the testator
+                      considered important but where the misrepresentation was
+                      not directed to a particular provision in the will. For
+                      instance, if a fraudster convinces the testator that an
+                      heir apparent has already died, but is, in fact, alive,
+                      this would probably cause the testator to distribute his
+                      assets differently, either in the execution of the already
+                      drafted original will or a codicil or revoking a will that
+                      included the heir, so that a new will can be executed not
+                      including the presumed deceased heir. Another example of
+                      this is in the execution of the will, which occurs when
+                      the fraudster misrepresents the document that the testator
+                      is signing as the testator's will, when, in fact, it is
+                      not. For instance, fraud in the execution would occur if
+                      the fraudster drew another will naming himself as the
+                      primary beneficiary then substituted his will for the
+                      testator's will and had the testator sign it as if it was
+                      his will. Because for some reason testators feel that they
+                      need to keep their wills private and hidden, no one ever
+                      finds out. By not keeping your beneficiaries and executors
+                      informed, as well as your loved ones, friends, confidants
+                      and lawyer; perpetrating fraud in this manner is easier
+                      than you may think!
+                    </p>
+                  </div>
                 </div>
               </div>
             </SwiperSlide>
@@ -512,25 +520,20 @@ const Home = () => {
             >
               <SwiperSlide>
                 <TestinomialCard />
+              </SwiperSlide>
+              <SwiperSlide>
                 <TestinomialCard />
               </SwiperSlide>
               <SwiperSlide>
                 <TestinomialCard />
-                <TestinomialCard />
               </SwiperSlide>
               <SwiperSlide>
-                <TestinomialCard />
-                <TestinomialCard />
-              </SwiperSlide>
-              <SwiperSlide>
-                <TestinomialCard />
                 <TestinomialCard />
               </SwiperSlide>
             </Swiper>
           </div>
         </div>
       </div>
-      <Footer />
     </React.Fragment>
   );
 };

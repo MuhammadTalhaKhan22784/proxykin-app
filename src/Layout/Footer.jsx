@@ -22,23 +22,26 @@ const Footer = () => {
             <Link to="/about">About</Link>
             <Link>Team</Link>
             <Link to="/privacy">PRIVACY</Link>
-            <Link>News</Link>
+            <Link to="#">News</Link>
           </div>
           <div className="fc_3">
             <span>Help Center</span>
             <Link>Give Feedback</Link>
-            <Link>FAQs</Link>
+            <Link to="/faq">FAQs</Link>
             <Link>Contact us</Link>
           </div>
           <div className="fc_4">
-            <img
-              src={appstoreIcon}
-              alt="..."
-            />
-            <img
-              src={googlePlayIcon}
-              alt="..."
-            />
+            <span>Newsletter</span>
+            <p>
+              Join all the people who get the best exchange rates with lorem.
+              We’re cheaper than most leading African Banks. Enjoy rapid
+              transfers and the lowest fees. Your friends and family get more
+              when you send them money with lorem
+            </p>
+            <div className="f_host">
+              <img src={appstoreIcon} alt="..." />
+              <img src={googlePlayIcon} alt="..." />
+            </div>
           </div>
         </div>
         <div className="f_bottom">
