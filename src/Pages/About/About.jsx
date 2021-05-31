@@ -1,6 +1,9 @@
-import React from "react";
+import React,{useLayoutEffect} from "react";
 import "./About.css";
 const About = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <React.Fragment>
       <div className="about_section">

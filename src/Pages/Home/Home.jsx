@@ -1,11 +1,10 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import EesCard from "../../Component/Card/EesCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination, EffectFade } from "swiper";
 // assets
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
-import logo from "../../Assets/logo.jpg";
 import himg2 from "../../Assets/himg2.png";
 import eeimg from "../../Assets/ee_img.jpg";
 import tcardimg1 from "../../Assets/tcardimg1.jpg";
@@ -23,6 +22,9 @@ import TestinomialCard from "../../Component/Card/TestinomialCard";
 SwiperCore.use([Navigation, Pagination, EffectFade]);
 
 const Home = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <React.Fragment>
       <div className="main_home">
@@ -298,6 +300,17 @@ const Home = () => {
               </div>
             </SwiperSlide>
           </Swiper>
+        </div>
+
+        <div className="h_video_section">
+          <iframe
+            className="faq_video"
+            src="https://www.youtube.com/embed/mC5uJGUmyOU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
 
         <div className="h_more_section">

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useLayoutEffect } from "react";
 
 import "./Faq.css";
 import up from "../../Assets/FAQ - Button Activated.png";
@@ -25,6 +25,9 @@ const Faq = () => {
   const handleOpen = (e) => {
     setShow({ ...show, [e]: !show[e] });
   };
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <React.Fragment>
       <div className="faq_section">

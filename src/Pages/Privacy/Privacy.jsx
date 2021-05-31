@@ -1,8 +1,11 @@
-import React from "react";
+import React,{useLayoutEffect} from "react";
 import "./Privacy.css";
 
 // import privacybg from "../../Assets/privacy-bg.jpg"
 const Privacy = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <React.Fragment>
       <div className="privacy_section">
