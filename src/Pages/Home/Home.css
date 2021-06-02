@@ -167,8 +167,8 @@ p {
 
 .h_video_section {
   width: 100%;
-  height:max-content;
-  padding:2rem 0;
+  height: max-content;
+  padding: 2rem 0;
   text-align: center;
 }
 
@@ -192,6 +192,7 @@ p {
   align-items: flex-start;
   flex-direction: column;
   /* height: 550px; */
+  padding-right: 16px;
   text-align: left;
   display: flex;
   /* overflow-y: scroll; */
@@ -241,6 +242,7 @@ p {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding-right: 16px;
 }
 
 .hms_right img {
@@ -808,4 +810,158 @@ h6 a {
 .edu_team_main_box:hover .edu_team_inner_box {
   top: -220px;
   transition: all 0.7s;
+}
+
+@media screen and (max-width: 1186px) {
+  .hds_content h2 {
+    font-size: 1.5rem !important;
+  }
+  .h_more_section,
+  .h_more_section2 {
+    padding: 3rem 7rem;
+  }
+  .team_cards_section {
+    width: 86%;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .h_hero_left h1 {
+    font-size: 2rem !important;
+  }
+  .ee_main {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .h_more_section {
+    flex-direction: column-reverse;
+  }
+  .hms_right {
+    justify-content: center;
+    padding-right: 0;
+    width: 100%;
+  }
+  .hms_left {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .hmsl_content {
+    padding-right: 0;
+    text-align: center;
+  }
+  .hmsl_content h2,
+  .hmsl_content span {
+    width: 100%;
+    text-align: center !important;
+  }
+  .hms_right img {
+    width: 230px;
+    height: max-content;
+    object-fit: contain;
+  }
+  /*  */
+  .h_more_section,
+  .h_more_section2 {
+    padding: 1rem 7rem;
+  }
+  .h_more_section2 .hms_right {
+    justify-content: center;
+  }
+  /*  */
+  .edu_team_main_box {
+    width: 225px;
+    height: 225px;
+  }
+  .edu_team_inner_box,
+  .edu_team_main_box:after {
+    width: 227px;
+    height: 235px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .h_hero_main {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .h_hero_left {
+    width: 90%;
+  }
+  .h_hero_right {
+    justify-content: center;
+    margin-top: 0;
+  }
+  .h_hero_right img {
+    width: 210px;
+  }
+  .h_media {
+    justify-content: center;
+    padding: 0;
+    margin-top: 20px;
+  }
+  /*  */
+  .h_swiper {
+    height: max-content;
+  }
+  .ee_main {
+    flex-direction: column;
+  }
+  .ee_main img {
+    width: 80%;
+    height: 100%;
+  }
+  .hds_content {
+    width: 80% !important;
+  }
+  /*  */
+  .estate_enforce_section p {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 856px) {
+  .ees_cards_section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .eescard {
+    margin: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .h_hero_left {
+    padding: 0px 1rem;
+  }
+  .h_hr {
+    margin: 20px auto;
+  }
+  .h_hero_left h1 {
+    text-align: center;
+    line-height: 1.4;
+  }
+  .h_team_section > p {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .faq_video {
+    width: 90%;
+    height: 360px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .h_media img {
+    width: 137px;
+  }
+  .h_hero_left h1 {
+    font-size: 1.3rem !important;
+  }
+  .hl_ul {
+    padding: 0px 2rem;
+  }
 }
