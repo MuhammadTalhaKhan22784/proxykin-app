@@ -58,5 +58,6 @@ export default function TeamCard(props) {
         <img src={props.img} alt="img" />
       </div>
     </div>
-  );
+ 
+ );
 }

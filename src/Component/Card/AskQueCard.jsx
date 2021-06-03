@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
+import { Link } from "react-router-dom";
 
 const AskQueCard = (props) => {
   return (
@@ -10,7 +11,7 @@ const AskQueCard = (props) => {
         {/* <hr className="h_hr" /> */}
         <p>{props.askPara}</p>
       </div>
-      <Button>Learn More</Button>
+      <Link to="/faq"><Button>Learn More</Button></Link>
     </div>
   );
 };

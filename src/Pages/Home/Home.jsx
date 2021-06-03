@@ -490,13 +490,19 @@ const Home = () => {
             your power of attorneys and wills.
           </p>
           <div className="team_cards_section">
-            <TeamCard img={tcardimg1} name="Jeff Levy" role="Founder and CEO" />
-            <TeamCard img={tcardimg2} name="Niraj Prasad" role="Partner" />
-            <TeamCard
-              img={tcardimg3}
-              name="Amrit Prasad"
-              role="CTO, Principal Developer"
-            />
+            <div className="team_card_wrapper">
+              <TeamCard
+                img={tcardimg1}
+                name="Jeff Levy"
+                role="Founder and CEO"
+              />
+              <TeamCard img={tcardimg2} name="Niraj Prasad" role="Partner" />
+              <TeamCard
+                img={tcardimg3}
+                name="Amrit Prasad"
+                role="CTO, Principal Developer"
+              />
+            </div>
           </div>
         </div>
         <div className="ask_questions_section">

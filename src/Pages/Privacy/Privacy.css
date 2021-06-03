@@ -27,7 +27,7 @@
 }
 
 .p_hero p {
-  width: 52%;
+  width: 700px;
   margin: 1rem auto;
   font-size: 1.1rem;
   color: white;
@@ -77,6 +77,29 @@
   line-height: 1.6;
 }
 
-.p_content p {
-  /* margin: 1rem 0; */
+@media screen and (max-width:868px) {
+  .p_hero p {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .p_content {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:644px) {
+  .p_hero h2 {
+    font-size: 3rem;
+  }
+  .p_hero p {
+    width: 90%;
+  }
+  .p_content ul li {
+    margin: 1rem 0 0 1rem;
+  }
+  .p_content p {
+    text-align: left;
+  }
 }

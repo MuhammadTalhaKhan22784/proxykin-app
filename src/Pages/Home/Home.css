@@ -1,6 +1,7 @@
 .main_home {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 p {
@@ -431,10 +432,19 @@ p {
 }
 
 .team_cards_section {
-  display: flex;
-  width: 72%;
-  margin: 3rem auto;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 25px 15px;
   justify-content: space-between;
+}
+
+.team_card_wrapper {
+  width: 100%;
+  max-width: 1190px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .teamcard {
@@ -525,7 +535,7 @@ p {
 }
 
 .askcard_section {
-  width: 80%;
+  width: 90%;
   margin-top: 5rem !important;
   margin: 0 auto;
   display: flex;
@@ -820,8 +830,14 @@ h6 a {
   .h_more_section2 {
     padding: 3rem 7rem;
   }
-  .team_cards_section {
-    width: 86%;
+  .fc_4 img {
+    width: 130px !important;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .askcard {
+    width: 285px;
   }
 }
 
@@ -831,6 +847,16 @@ h6 a {
   }
   .ee_main {
     width: 80%;
+  }
+  .fc_content span {
+    font-size: 1rem;
+  }
+  .fc_2 a,
+  .fc_3 a {
+    font-size: 0.9rem;
+  }
+  .fc_4 img {
+    width: 120px !important;
   }
 }
 
@@ -870,17 +896,22 @@ h6 a {
     justify-content: center;
   }
   /*  */
-  .edu_team_main_box {
-    width: 225px;
-    height: 225px;
+  .askcard_section {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem !important;
   }
-  .edu_team_inner_box,
-  .edu_team_main_box:after {
-    width: 227px;
-    height: 235px;
+  .askcard {
+    width: 400px;
+    margin-bottom: 2rem;
   }
 }
 
+@media screen and (max-width: 930px) {
+  .testinomial_card {
+    width: 669px;
+  }
+}
 @media screen and (max-width: 900px) {
   .h_hero_main {
     flex-direction: column-reverse;
@@ -919,6 +950,36 @@ h6 a {
   .estate_enforce_section p {
     width: 90%;
   }
+  /*  */
+  .testinomial_card {
+    width: 620px;
+  }
+  /*  */
+  .fc_content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto 1.5rem auto;
+  }
+  .fc_1 {
+    width: 90%;
+  }
+  .fc_2,
+  .fc_3 {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  .fc_4 {
+    padding-left: 0;
+    width: 90%;
+  }
+  .fc_4 p {
+    margin-bottom: 1rem;
+  }
+  .f_host {
+    width: 265px;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 856px) {
@@ -929,6 +990,38 @@ h6 a {
   .eescard {
     margin: 2rem 0;
   }
+  .testinomial_card {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    transform: unset;
+  }
+  .tc_content > h2 {
+    margin: 1rem 0;
+  }
+  .tc_content {
+    width: 90%;
+    text-align: center;
+}
+  .testinomial_card i {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .team_card_wrapper {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .h_more_section,
+  .h_more_section2 {
+    padding: 1rem 4rem;
+  }
+  /* .edu_team_main_box {
+      width: 90%;
+  } */
 }
 
 @media screen and (max-width: 700px) {
@@ -945,12 +1038,94 @@ h6 a {
   .h_team_section > p {
     width: 80%;
   }
+  .ask_questions_section h1 {
+    font-size: 2rem;
+    line-height: 1.5;
+    position: 0 5px;
+  }
+  .ask_questions_section > p {
+    width: 90%;
+  }
+  .ee_main {
+    width: 90%;
+  }
+  .hds_content .h_hr {
+    margin: 0.5rem 0 0 0;
+  }
+  .f_bottom {
+    flex-direction: column;
+  }
+  .f_social_links {
+    margin-top: 1rem;
+  }
+  .hmsl_content h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  .hmsl_content h2,
+  .hmsl_content span {
+    line-height: 1.5;
+  }
+  .estate_enforce_section h2 {
+    font-size: 1.5rem;
+  }
+  .estate_enforce_section p {
+    font-size: 1rem;
+  }
+  .h_team_section h1 {
+    font-size: 1.5rem;
+  }
+  .h_team_section > p {
+    font-size: 1rem;
+  }
+  .estate_enforce_section {
+    padding: 3rem 0 0 0;
+  }
+  .h_team_section {
+    padding: 1rem 0;
+  }
+  .team_cards_section {
+    padding: 0px 15px;
+  }
+  .edu_team_main_box {
+    margin-top: 34px;
+  }
+  .testinomial_section > h1 {
+    font-size: 2rem;
+  }
+  .testinomial_section > p {
+    font-size: 1rem;
+  }
+  .f_bottom > span {
+    text-align: center;
+    line-height: 1.5;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .faq_video {
     width: 90%;
     height: 360px;
+  }
+  
+}
+
+@media screen and (max-width: 560px) {
+  .nav_logo img {
+    width: 170px;
+  }
+  .h_btn button {
+    color: white;
+    padding: 18px 16px !important;
+  }
+  .tc_content {
+    width: 100%;
+}
+.testinomial_card {
+  padding: 23px 30px;
+}
+  .tc_content > h2 {
+    font-size: 1.5rem;
   }
 }
 
@@ -964,4 +1139,101 @@ h6 a {
   .hl_ul {
     padding: 0px 2rem;
   }
+  .h_details_section {
+    margin: 3rem 0 2rem 0;
+  } 
+  .header {
+    padding: 0 15px;
+  }
+  .askcard {
+    width: 350px;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+  }
+  .ask_questions_section h1 {
+    font-size: 1.5rem;
+  }
+  .ask_questions_section > p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 444px) {
+  .header {
+    padding: 20px 15px;
+    flex-direction: column;
+    justify-content: space-around;
+    height: max-content;
+  }
+  .nav_logo {
+    margin-bottom: 1rem;
+  }
+  .nav_logo img {
+    width: 180px !important;
+  }
+  .hds_content {
+    width: 100% !important;
+  }
+  .h_details_section {
+    margin: 6rem 0 0rem 0;
+  }
+  /*  */
+  .h_more_section,
+  .h_more_section2 {
+    padding: 1rem 2rem;
+  }
+  .hmsl_content p {
+    text-align: justify;
+  }
+  .tc_content > p {
+    font-size: 1rem;
+  }
+  .fc_1 img {
+    width: 180px;
+  }
+  .h_details_section {
+    margin: 2rem 0 2rem 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hds_content h2 {
+    font-size: 1.2rem !important;
+  }
+  .askcard {
+    width: 320px;
+  }
+  .askcard h2 {
+    font-size: 1.1rem;
+  }
+  .testinomial_card {
+    width: 100%x;
+  }
+  .tc_content > h2 {
+    font-size: 1.2rem;
+  }
+  .testinomial_section > h1 {
+    font-size: 1.2rem;
+  }
+  .ask_questions_section h1 {
+    font-size: 1.2rem;
+  }
+  .h_media {
+    justify-content: space-around;
+  }
+  .h_media img {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 360px) {
+  .askcard {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .askcard {
+    width: 270px;
+  }
+  
 }

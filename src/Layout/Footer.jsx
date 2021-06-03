@@ -22,7 +22,7 @@ const Footer = () => {
             <Link to="/about">About</Link>
             <Link>Team</Link>
             <Link to="/privacy">PRIVACY</Link>
-            <Link to="#">News</Link>
+            <Link to="http://proxykin.com/blog">Blog</Link>
           </div>
           <div className="fc_3">
             <span>Help Center</span>
