@@ -103,3 +103,12 @@
     text-align: left;
   }
 }
+
+@media screen and (max-width:425px) {
+  .p_content {
+    width: 100%;
+  }
+  .p_hero p {
+    font-size: 1rem;
+  }
+}

@@ -22,7 +22,9 @@ const Footer = () => {
             <Link to="/about">About</Link>
             <Link>Team</Link>
             <Link to="/privacy">PRIVACY</Link>
-            <Link to="http://proxykin.com/blog">Blog</Link>
+            <a target="blank" href="http://proxykin.com/blog">
+              Blog
+            </a>
           </div>
           <div className="fc_3">
             <span>Help Center</span>
@@ -50,9 +52,16 @@ const Footer = () => {
             reserved
           </span>
           <div className="f_social_links">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-linkedin-in"></i>
+            <a target="blank" href="https://www.facebook.com/ProxyKin">
+              {" "}
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a target="blank" href="https://www.instagram.com/theproxykin/?hl=en">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a target="blank" href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fproxykin%2Fabout%2F">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
           </div>
         </div>
       </div>
