@@ -11,27 +11,11 @@ import { Link } from "react-router-dom";
 
 export default function TeamCard(props) {
   return (
-    // <Card className="teamcard">
-    //   <CardMedia
-    //     className="tcard_img"
-    //     image={props.img}
-    //     title="Contemplative Reptile"
-    //   />
-    //   <div className="tcard_bottom">
-    //     <Typography gutterBottom variant="h5" component="h2">
-    //       {props.name}
-    //     </Typography>
-    //     <Typography variant="body2" color="textSecondary" component="span">
-    //       {props.role}
-    //     </Typography>
-    //   </div>
-    // </Card>
-
     <div className="edu_team_main_box">
       <h3>
-        <Link to="/#">Jacklen Fandores</Link>
+        <Link to="/#">{props.name}</Link>
       </h3>
-      <p>Web Designer</p>
+      <p>{props.role}</p>
       <ul>
         <li>
           <Link to="/#">

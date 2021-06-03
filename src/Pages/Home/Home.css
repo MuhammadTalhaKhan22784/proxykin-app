@@ -434,6 +434,7 @@ p {
 .team_cards_section {
   width: 100%;
   margin: 1rem auto;
+  overflow: hidden;
   padding: 25px 15px;
   justify-content: space-between;
 }

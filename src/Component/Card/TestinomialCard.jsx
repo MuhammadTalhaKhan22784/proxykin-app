@@ -2,6 +2,7 @@ import React from "react";
 import testinomialUser from "../../Assets/testinomial-user.jpg";
 const TestinomialCard = () => {
   return (
+    <React.Fragment>
     <div className="testinomial_card">
       <img src={testinomialUser} alt="..." />
       <div className="tc_content">
@@ -13,6 +14,7 @@ const TestinomialCard = () => {
       </div>
       <i class="fas fa-quote-right"></i>
     </div>
+    </React.Fragment>
   );
 };
 

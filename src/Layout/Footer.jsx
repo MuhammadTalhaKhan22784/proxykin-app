@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
         <div className="f_bottom">
           <span>
-            Privacy Policy | © 2020 <strong>ProxyKin.</strong> All rights
+            Privacy Policy | © 2021 <strong>Estate Enforcer.</strong> All rights
             reserved
           </span>
           <div className="f_social_links">

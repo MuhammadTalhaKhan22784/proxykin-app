@@ -13,8 +13,8 @@ const Header = () => {
         </div>
         <div>
           <div className="h_btn">
-            <Button className="s_btn">Sign up</Button>
-            <Button className="l_btn">Sign in</Button>
+            <a target="blank" href="https://proxykin.web.app/auth/register"><Button className="s_btn">Sign up</Button></a>
+            <a target="blank" href="https://proxykin.web.app/auth/login"><Button className="l_btn">Sign in</Button></a>
           </div>
         </div>
       </div>

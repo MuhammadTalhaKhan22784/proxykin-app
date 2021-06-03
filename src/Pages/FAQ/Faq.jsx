@@ -516,7 +516,7 @@ const Faq = () => {
               </div>
               <div
                 className="fqb_para"
-                style={{ display: !show.f13 ? "none" : "flex" }}
+                style={{ display: !show.f13 ? "none" : "flex"}}
               >
                 <p>
                   A blockchain-based POA/Wills/Proxies storage and provenance
@@ -533,7 +533,6 @@ const Faq = () => {
                 </p>
               </div>
             </div>
-
             <div
               className="faq_box"
               style={{

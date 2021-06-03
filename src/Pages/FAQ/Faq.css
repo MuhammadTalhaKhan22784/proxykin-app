@@ -72,11 +72,29 @@
   border: none;
   cursor: pointer;
 }
-
+.trans{
+  transition: 2s;
+}
 .fqb_para {
   padding: 10px 20px;
   font-family: "Josefin Sans" !important;
+  /* transition: 2s;
+  margin: 10px 0; */
 }
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .fqb_para {
+    animation: App-logo-spin 1 2s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: translateY("0px");
+  }
+  to {
+    transform: translateY("50px");
+  }
+} */
 
 .fqb_para p {
   line-height: 1.5;
