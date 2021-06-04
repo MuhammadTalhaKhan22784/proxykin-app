@@ -19,6 +19,7 @@
   padding: 2rem 0;
   justify-content: center;
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .p_hero h2 {
@@ -35,20 +36,30 @@
 
 .p_content {
   width: 70%;
-  height: max-content;
+  height: 700px;
+  overflow-y: scroll;
   /* margin: -100px auto 0 auto; */
   /* box-shadow: 0 1px 10px -3px rgb(0 0 0 / 22%); */
-  padding: 4rem 2rem;
+  padding: 0rem 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.p_content::-webkit-scrollbar {
+  width: 20px;
 }
 
 .p_content h1 {
   font-family: "Josefin Sans" !important;
   font-size: 2rem;
+  margin: 1rem auto;
+  color: #2f6a9e;;
 }
 
 .p_content p {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
+  margin: 1rem auto;
   line-height: 1.6;
   text-align: justify;
 }
@@ -60,7 +71,9 @@
 }
 
 .p_content h2 {
-  margin: 0.4rem 0;
+  margin: 0.7rem 0;
+  font-size: 1.4rem;
+  color: #2f6a9eb8;
 }
 
 .p_content ul {
@@ -77,19 +90,19 @@
   line-height: 1.6;
 }
 
-@media screen and (max-width:868px) {
+@media screen and (max-width: 868px) {
   .p_hero p {
     width: 600px;
   }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width: 700px) {
   .p_content {
     width: 90%;
   }
 }
 
-@media screen and (max-width:644px) {
+@media screen and (max-width: 644px) {
   .p_hero h2 {
     font-size: 3rem;
   }
@@ -104,7 +117,7 @@
   }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width: 425px) {
   .p_content {
     width: 100%;
   }
